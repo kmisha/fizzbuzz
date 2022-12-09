@@ -3,7 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "description": "A simple application for entrance test for courses in the Go",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc",
+    "check": "node ./dist/src/main.js"
+  },
+  "bin": {
+    "fizbuzz": "./dist/src/main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kmisha/fizzbuzz.git"
@@ -19,6 +25,7 @@
   },
   "homepage": "https://github.com/kmisha/fizzbuzz#readme",
   "devDependencies": {
+    "@tsconfig/node-lts-strictest": "^18.12.1",
     "@types/node": "^18.11.12",
     "typescript": "^4.9.4"
   }
