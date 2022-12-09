@@ -1,0 +1,21 @@
+{
+  "name": "@kmisha/fizzbuzz",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A simple application for entrance test for courses in the Go",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmisha/fizzbuzz.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "CLI"
+  ],
+  "author": "Mikhail Kolesnikov <dadyaaya@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmisha/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/kmisha/fizzbuzz#readme"
+}
